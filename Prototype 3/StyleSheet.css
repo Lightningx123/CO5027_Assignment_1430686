@@ -1,0 +1,248 @@
+﻿body {
+    background-image: url('Images/Titanium.jpg');
+    font-family: 'District Pro Thin';
+    font-size: 12px;
+    line-height: 18px;
+    min-width: 740px;
+    width: 1920px;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+@font-face {
+    font-family: District Pro Thin; src: url('Fonts/DistProTh.otf');
+}
+
+/* Home page CSS codes */
+.auto-style1 {
+    width: 100%;
+        }
+
+.auto-style2 {
+    width: 63px;
+        }
+
+.auto-style3 {
+    width: 131px;
+        }
+
+.auto-style4 {
+    width: 63px;
+    height: 26px;
+        }
+
+.auto-style5 {
+    width: 131px;
+    height: 26px;
+        }
+
+.auto-style6 {
+    height: 26px;
+        }
+
+#Wrapper{
+    width: 1280px;
+    margin: 0 300px 0 300px;
+    height: 1150px;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+#Head_box{
+    height: 160px;
+    background: rgba(141, 138, 138, 0.4);
+}
+
+
+#Logo{
+    height: 150px;
+    width: 217px;
+    border: 5px solid black;
+    text-align: left;
+    float: left;
+}
+
+#Banner{
+    width: 1053px;
+    height: 160px;
+    text-align: right;
+    float: right;
+}
+
+#Navbar{
+    width: 223px;
+    background-color: darkgray;
+    float: left;
+    height: 985px;
+    border: 2.5px solid black;
+}
+
+#Navbar hr{
+    border-color: black;
+}
+
+#Navbar ul{
+    height: 484px;
+    vertical-align: middle;
+    margin-top: 52px;
+    width: 152px;
+}
+   
+#Navbar li a span{
+    padding-left: 22px;
+    padding-top: 2px;
+    background: no-repeat transparent left top;
+    background-size: 16px;
+    text-align: left;
+}
+
+
+#Navbar li a{
+    display: block;
+    width: 136px;
+    height: 88px;
+    text-align: center;
+    padding: 7px 7px 2px;
+    text-decoration: none;
+    font-weight: bolder;
+    color: #000000;
+    font-size: 24px;
+}
+
+#Navbar li a:hover{
+    color: #ff7d00;
+	text-decoration: underline;
+}
+
+#Navbar li{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+#Memberslogin{
+    width: 222px;
+    height: 150px;
+}
+
+p.Memberslogintitle{
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+    color: black;
+}
+
+#Centerbox{
+    height: 794px;
+}
+
+#Content hr{
+    margin-left: 4px;
+    margin-right: 13px;
+}
+
+/* Content CSS code */
+#Content{
+width: 1049px;
+float: right;
+height: 789px;
+}
+
+h1#Welcomeheading{
+    color: #ffd800;
+    font-size: 40px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+p.carsampletitles {
+    color: #ffd800;
+    font-size: 22px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+#space_box{
+    width: 1046px;
+    height: 35px;
+    float: left;
+}
+
+
+
+#Contactdetails {
+    float: left;
+    width: 900px;
+
+}
+
+#Validationsumamrybox{
+    float:left;
+}
+
+h1#Contactustitle{
+    color: #ffd800;
+    font-size: 40px;
+    font-weight: bolder;
+    text-align: left;
+}
+
+p.contactinfo1{
+    color: #ffffff;
+    font-size: 22px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+}
+
+td.Contactusform1{
+    width: 260px;
+    color: #ffffff;
+    font-size: 22px;
+    vertical-align: top;
+}
+
+td.Contactusform2{
+    width:50px;
+}
+
+#Contactuslocationinfo{
+    width: 450px;
+    float:left;
+}
+
+p.contactusinfotitle{
+    font-size: 35px;
+    color: #ffd800;
+    font-weight: bolder;
+}
+
+p.contactusinfo{
+     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 19px;
+    color: #ffffff;
+    width: 400px;
+}
+
+#Contactuslocationmap{
+    width: 500px;
+    height: 410px;
+    float: left;
+}
+
+#googleMap{
+    width: 500px;
+    height: 410px;
+}
+
+/* Footer code */
+p#Copyrightfooter{
+    font-family: "Copperplate Gothic";
+    font-size: 20px;
+}
+
+#footer{
+    height: 50px;
+    width: 1280px;
+    margin: 0 300px 0 300px;
+    background: rgba(141, 138, 138, 0.6);
+}

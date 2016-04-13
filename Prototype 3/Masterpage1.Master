@@ -1,0 +1,80 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Masterpage1.master.cs" Inherits="Prototype_3.Masterpage1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href="stylesheet.css" rel="Stylesheet" type="text/css" media="screen"/>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div id="Wrapper">
+        <div id="Head_box">
+            <div id="Banner">
+            <img src="Images/Logo and Banner/BannerTitle.png" alt="Banner" style="height: 160px; width: 1053px; margin-left: 0px;" />
+            </div>
+            <div id="Logo">
+            <img alt="Logo" src="Images/Logo and Banner/LogoCars.png" style="height: 210px; width: 216px;" />
+            </div>
+        </div>
+
+            <div id="Centerbox">
+            <div id="Navbar">
+                    <ul>
+                    <li><a href="Default.aspx">Home</a>
+                    </li>
+                    <li><a href="Inventory.aspx">Inventory</a>
+                    </li>
+                    <li><a href="AboutUs.aspx">About Us</a>
+                    </li>
+                    <li><a href="Contactus.aspx">Contact Us</a>
+                    </li>
+                    <li><a href="Admin.aspx">Admin Area</a>
+                    </li>
+                </ul>
+                <hr />
+                <div id="Memberslogin">
+                    <p class="Memberslogintitle">Members Login</p>
+                <table class="auto-style1">
+                    <tr>
+                        <td class="auto-style4"><strong>USERNAME:</strong></td>
+                        <td class="auto-style5">
+                            <asp:TextBox ID="Username" runat="server" Width="125px"></asp:TextBox>
+                        </td>
+                        <td class="auto-style6"></td>
+                    </tr>
+                    <tr>
+                        <td class="auto-style2"><strong>PASSWORD:</strong></td>
+                        <td class="auto-style3">
+                            <asp:TextBox ID="Password" runat="server" TextMode="Password" Width="125px"></asp:TextBox>
+                        </td>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td class="auto-style2">&nbsp;</td>
+                        <td class="auto-style3">
+                            <asp:Button ID="Login" runat="server" Text="Login" Width="63px" />
+                            <asp:Button ID="Register" runat="server" Text="Register" Width="63px" />
+                        </td>
+                        <td>&nbsp;</td>
+                    </tr>
+                </table>
+              </div>
+                <hr />
+            </div>
+            <div id="Content">
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+            </div>
+          
+            </div>
+            </div>
+         <div id="footer">
+                <p id="Copyrightfooter">&copy; Copyright 2016 | Aiman Zaki |</p>
+            </div>
+    </form>
+    
+</body>
+</html>
